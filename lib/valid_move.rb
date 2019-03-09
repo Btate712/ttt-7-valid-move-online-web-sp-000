@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move(position)
+def valid_move(board, index)
   if position <= 0 && position < 9
     true
   end
